@@ -1,6 +1,6 @@
 # ajua-stack
 
-Claude Code 外掛。讓 Claude 照固定流程工作，並以實際證據驗證成果。為獨立開發、不讀程式碼的使用者設計。
+Claude Code 外掛。讓 Claude 照固定流程工作，並以實際證據驗證成果。
 
 ## 安裝
 
