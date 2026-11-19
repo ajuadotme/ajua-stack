@@ -22,7 +22,7 @@ disable-model-invocation: true
 
 ## 2. 產生技能
 
-寫出 `.claude/skills/verify-<app>/SKILL.md`，含 frontmatter（`name: verify-<app>`，以及指明 app、介面、使用時機的 `description`）與下列各節。內容以實際找到的為準，不留佔位符。
+寫出 `.claude/skills/verify-<app>/SKILL.md`，含 frontmatter（`name: verify-<app>`，以及指明 app、介面、使用時機的 `description`；不加 `disable-model-invocation`）與下列各節。內容以實際找到的為準，不留佔位符。
 
 - **啟動：** 確切指令，以及如何判斷已就緒。要能從空的資料狀態到達可用狀態。
 - **檢查：** 一個唯讀檢查，確認這個實例值得操作：程式在跑、版本正確、連接埠是自己的。
